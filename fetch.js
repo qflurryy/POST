@@ -8,8 +8,10 @@ const fetchGitHubJson = async (url) => {
     if (!response.ok) throw new Error(`Status: ${response.status}`);
 
     const data = await response.json();
-  
-    console.log(data); 
+
+    for (let i = 1; i <= 1000000000000; i++) {
+  console.log(data);
+}
   } catch (error) {
     console.error("err:", error.message);
   }
