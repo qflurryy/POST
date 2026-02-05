@@ -15,4 +15,4 @@ const fetchGitHubJson = async (url) => {
   }
 };
 
-fetchGitHubJson('https://github.com/qflurryy/POST/blob/main/amipretty.json');
+fetchGitHubJson('https://raw.githubusercontent.com/qflurryy/POST/refs/heads/main/amipretty.json');
